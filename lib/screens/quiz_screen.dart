@@ -64,7 +64,7 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _loadRewardedAd() {
     RewardedAd.load(
-      adUnitId: '', // RewardedAd ID
+      adUnitId: 'ca-app-pub-3940256099942544/5224354917', // RewardedAd ID
       request: const AdRequest(),
       rewardedAdLoadCallback: RewardedAdLoadCallback(
         onAdLoaded: (ad) => setState(() {
